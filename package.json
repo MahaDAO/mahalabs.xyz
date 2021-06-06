@@ -1,0 +1,14 @@
+{
+  "name": "mahatrade.xyz",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "echo 'maha.ventures' > public/CNAME && gh-pages --dist public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
