@@ -50,11 +50,26 @@ body,
   width: 100%;
 }
 
+hr {
+  max-width: 600px !important;
+  margin: 30px auto;
+}
+
+.upcoming {
+  opacity: 0.5;
+}
+
 a.link,
 a.link:visited,
 a.link:hover {
   color: #fff !important;
   border-bottom: 1px dotted #fff;
+}
+
+h3 {
+  margin-bottom: 15px !important;
+  font-size: 13px !important;
+  text-transform: uppercase;
 }
 
 @font-face {
@@ -320,7 +335,7 @@ a.link-light:focus {
 a.btn {
   display: inline-block;
   margin: 0 5px;
-  padding: 14px;
+  padding: 8px 20px;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
