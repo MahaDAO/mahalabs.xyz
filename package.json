@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "pug src -o public -P",
-    "push": "echo 'mahalabs.xyz' > public/CNAME && gh-pages --dist public"
+    "push": "npm run build && echo 'mahalabs.xyz' > public/CNAME && gh-pages --dist public"
   },
   "author": "",
   "license": "ISC",
