@@ -40,15 +40,14 @@ html
     // Custom CSS
     link(rel='stylesheet' href='/css/style.css')
   body.bg-dark
-    #page
-      .padding.text-white
-        div
-          // Logo
-          .p-t-b-15.options
-            a(href='/')
-              img.raindrop(src='/images/mahalabs.png' height='100' width='100' alt='Maha Labs')
+    #page.padding.text-white
+      div
+        // Logo
+        .p-t-b-15.options
+          a(href='/')
+            img.raindrop(src='/images/mahalabs.png' height='100' width='100' alt='Maha Labs')
 
-        block content
+      block content
 
       hr
       include ./_footer.pug
