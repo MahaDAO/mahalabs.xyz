@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "pug src -o public -P",
+    "watch": "pug src -w -o public -P",
     "push": "npm run build && echo 'mahalabs.xyz' > public/CNAME && gh-pages --dist public"
   },
   "author": "",
